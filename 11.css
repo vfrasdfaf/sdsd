@@ -1,0 +1,89 @@
+body{
+    margin: 0;
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+    background-color: rgb(24, 23, 23);
+    font-size: 32px;
+    color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+}
+span{
+    font-size: 20px;
+    color: darkolivegreen;
+}
+.left_blok{
+   height: 100%; 
+   max-width: 355px;
+   background-color: rgb(45, 42, 42);
+   
+}
+.right_blok{
+    display: grid;
+    grid-template-rows: 1fr 10fr;
+}
+.header{   
+
+background-color: rgb(45, 42, 42);
+
+}
+.content{
+    display: grid;
+    gap: 2% 1%;  
+    margin: 1% 2%; 
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.I,.A,.B,.C,.D,.E,.F,.G,.H{
+
+background-color: black;
+border-radius: 20px;
+overflow: hidden;
+white-space: nowrap;
+padding: 10px 10px 0 10px;
+margin-top: 2%; 
+
+}
+.I{
+    height: 501px;
+    max-height: 601px;
+    padding-top: 40px;
+    display:flex;            
+    align-items: center;   
+    flex-direction: column;
+    gap: 10px;
+}
+
+.A,.C,.E,.F{
+   height: 121px;
+}
+
+.B,.H{
+    height: 440px;
+    display: flex;                   
+    display:flex;            
+    align-items: center;   
+    flex-direction: column;
+    gap: 10px;
+}
+.G,.D{
+    height: 253px;
+}
+ul {
+    margin: 100px 0 0 10px;
+    list-style-type: none;
+    padding-left: 0;
+}
+button{
+    background-color:rgb(45, 42, 42) ;
+    color: aliceblue;
+    padding: 10px 20px; 
+    border: none;
+    cursor: pointer;
+    font-size: 32px;
+}
+button:hover {
+    background-color:black; /* Цвет кнопки при наведении */
+}
+button:active {
+    background-color: #ffffff; /* Цвет кнопки при нажатии */
+}
